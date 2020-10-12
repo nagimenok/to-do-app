@@ -1,0 +1,71 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+    color: purple;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width:360px;
+    
+}
+
+#input {
+    width: 300px;
+    height: 46px;
+    border: 1px solid magenta;
+    font-size: 20px;
+    outline: none;
+    vertical-align: middle;
+    
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid magenta; 
+    vertical-align: middle;
+    font-size: 30px;
+    color: blue;
+}
+
+.to-dos {
+    margin-top: 25px;
+    font-style: oblique;
+    font-size: 35px;
+
+}
+
+.newLine-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
