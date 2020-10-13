@@ -30,21 +30,21 @@ h1 {
     width: 50px;
     border: 1px solid magenta; 
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 25px;
     color: blue;
 }
 
 .to-dos {
     margin-top: 25px;
     font-style: oblique;
-    font-size: 35px;
+    font-size: 20px;
 
 }
 
 .newLine-styling {
     margin: 0;
     cursor: pointer;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 
