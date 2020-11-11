@@ -2,10 +2,12 @@ let addToDoButton = document.getElementById('addToDo');
 let toDoContainer = document.getElementById('toDoContainer');
 let input = document.getElementById('input');
 
+savedtodos = []
+
 addToDoButton.addEventListener('click', function(){
     let newLine = document.createElement('p');
     newLine.classList.add('newLine-styling');
-    newLine.innerText = " - " + " " + input.value;
+    const todo = newLine.innerText = " - " + " " + input.value;
     toDoContainer.appendChild(newLine);
     input.value="";
     newLine.addEventListener('click', function (){
@@ -15,7 +17,12 @@ addToDoButton.addEventListener('click', function(){
         toDoContainer.removeChild(newLine);
     })
 
+    savedtodos.push(todo);
+    console.log(savedtodos);
+
 })
+
+
 
 
 
