@@ -2,7 +2,8 @@ let addToDoButton = document.getElementById('addToDo');
 let toDoContainer = document.getElementById('toDoContainer');
 let input = document.getElementById('input');
 
-addToDoButton.addEventListener('click', function(){
+addToDoButton.addEventListener('click', function(e){
+    e.preventDefault()
     let newLine = document.createElement('p');
     newLine.classList.add('newLine-styling');
     newLine.innerText = " - " + " " + input.value;
@@ -16,7 +17,7 @@ addToDoButton.addEventListener('click', function(){
     })
 
 })
-
+ 
 
 
 
